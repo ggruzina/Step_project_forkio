@@ -1,0 +1,25 @@
+{
+  "name": "forkio_step_proj",
+  "version": "1.0.0",
+  "description": "Belov and Gruzina step proj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggruzina/Step_project_forkio.git"
+  },
+  "author": "Belov & Gruzina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggruzina/Step_project_forkio/issues"
+  },
+  "homepage": "https://github.com/ggruzina/Step_project_forkio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp-sass": "^5.1.0",
+    "gulp": "^4.0.2",
+    "sass": "^1.49.0"
+  }
+}
