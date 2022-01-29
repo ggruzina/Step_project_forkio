@@ -1,0 +1,17 @@
+@mixin monserat ($weight){
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: $weight;
+}
+
+@mixin lato ($weight){
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: $weight;
+}
+
+@mixin display ($display: flex, $jc: center, $ai: center) {
+    display: $display;
+    justify-content: $jc;
+    align-items: $ai;
+}

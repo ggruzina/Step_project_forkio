@@ -4,7 +4,7 @@
   "description": "Belov and Gruzina step proj",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gulp"
   },
   "repository": {
     "type": "git",
@@ -18,8 +18,12 @@
   "homepage": "https://github.com/ggruzina/Step_project_forkio#readme",
   "devDependencies": {
     "browser-sync": "^2.27.7",
-    "gulp-sass": "^5.1.0",
     "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-uglify": "^3.0.2",
     "sass": "^1.49.0"
   }
 }

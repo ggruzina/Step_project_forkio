@@ -5,16 +5,73 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="./dist/styles/style.css" />
+        <link rel="stylesheet" href="./dist/styles/main.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">    
+
+        <!-- Place this tag in your head or just before your close body tag. -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
     </head>
     <body>
+        
         <header class="header">
+                <div class="header__top">
+                    <div class="container">
+                        <div class="logo">
+                            <div class="logo__img">
+                                <img src="./dist/img/logo.png" alt="" class="img">
+                            </div>
+                            <a href="" class="logo__text">
+                                forkio
+                            </a>
+                        </div>
+                        <div class="navbar">
+                            <nav class="nav">
+                                <ul class="nav__list list">
+                                    <li class="list__item">overwiev</li>
+                                    <li class="list__item">About Fork</li>
+                                    <li class="list__item">Buying Options</li>
+                                    <li class="list__item">Support</li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <button class="header__btn btn">buy now</button>
+                        <button class="burger-btn">
+                            <div class="btn--open">
+                                <img src="./dist/img/min-line.png" alt="" class="img">
+                                <img src="./dist/img/line.png" alt="" class="img">
+                                <img src="./dist/img/line.png" alt="" class="img">
+                            </div>
+                            <div class="btn--close">
+                                <img src="./dist/img/close.png" alt="" class="img">
+                            </div>
+                        </button>
+                    </div>
+                </div>
 
+                <h1 class="header__title title title--white">Fork App</h1>
+                <p class="header__prev">A real gamechanger in the world of web development</p>
+                <p class="descr">v. 2.8 For Mac and Windows</p>
 
+                <div class="download">
+                    <button class="download__btn btn">Download For Free Now</button>
+                    <p class="download__offer">Unlimited 30-Days Trial Period</p>
+                </div>
         </header>
 
         <section class="present">
-
+            <div class="container">
+                <div class="present__wrapper">
+                    <h2 class="present__title title">Revolutionary editor</h2>
+                <p class="present__prev">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>
+                <div class="buttons">
+                   <a class="github-button" href="https://github.com/ntkme/github-buttons/subscription" data-icon="octicon-eye" data-size="large" data-show-count="true" aria-label="Watch ntkme/github-buttons on GitHub">Watch</a>
+                   <a class="github-button" href="https://github.com/ntkme/github-buttons" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</a>
+                    <a class="github-button" href="https://github.com/ntkme/github-buttons/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork ntkme/github-buttons on GitHub">Fork</a>
+                </div>
+                </div>
+            </div>
 
         </section>
 
@@ -34,6 +91,6 @@
         </section>
 
 
-        <script src="./dist/js/index.js"></script>
+        <script src="./dist/js/index.min.js"></script>
     </body>
 </html>
