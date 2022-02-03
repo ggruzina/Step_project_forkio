@@ -52,6 +52,10 @@
 .logo__text{
     display: none;
 
+    &:hover{
+        color: $white;
+    }
+
     @media (min-width: 481px) {
         display: block;
         font-weight: bold;
@@ -63,7 +67,7 @@
 }
 
 .navbar{
-    // display: none;
+    display: none;
     position: absolute;
     top: 100%;
     background-color: #333333;
@@ -98,7 +102,6 @@
     text-transform: capitalize;
     list-style: none;
     border-bottom: 3px solid #3B3B3B;
-
     
 
     @media (max-width: 481px) {
@@ -119,6 +122,10 @@
         border: none;
         font-size: 14px;
         line-height: 16px;
+
+        &:hover{
+            color: $white;
+        }
     }
     @media (min-width: 552px) {
         @include monserat(bold);
