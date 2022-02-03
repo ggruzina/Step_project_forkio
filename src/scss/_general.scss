@@ -10,6 +10,7 @@ body{
         line-height: 32px;
     }
 }
+//    загальний для всього контенту сторінки
 .container{
     padding: 0 10px;
     margin: 0 auto;
@@ -19,9 +20,11 @@ body{
         max-width: 1200px;
     }
 }
+//    загальний для всіх зображень
 .img{
     display: block;
 }
+//    загальний клас для всіх кнопок в проекті (з ефектом наведення)
 .btn{
     border-radius: 40px;
     background-color: #8D81AC;
@@ -36,6 +39,7 @@ body{
         color: #8D81AC;
     }
 }
+//    клас--модифікатор для кнопок нижньої секції (з ефектом наведення)
 .btn--transparent{
     background-color: rgba(255, 255, 255, 0.15);
     @include monserat(normal);
@@ -48,12 +52,16 @@ body{
         color: $white;
     }
 }
+//    клас для всіх заголовків на сторінці (мають один шрифт, товщину)
+//    !!! font-size/line-height вказувати з макету
 .title{
     @include monserat(700);
 }
+//    модифікатор для заголовків: header/testimonials/pricing
 .title--white{
     color: #FFFFFF;
 }
+//    модифікатор для заголовку: features
 .title--purple{
     color: #8D81AC;
 }
