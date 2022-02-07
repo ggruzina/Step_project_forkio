@@ -356,12 +356,12 @@ body {
 @media (min-width: 993px) {
   .header {
     background-image: url(../../dist/img/headerbg-large.jpg);
-    background-position: center 0;
+    background-position: center;
   }
 }
 
 .header__top {
-  background-color: #27262A;
+  background-color: #27262a;
 }
 @media (min-width: 993px) {
   .header__top {
@@ -421,7 +421,7 @@ body {
     font-size: 24px;
     line-height: 16px;
     text-transform: uppercase;
-    color: #8D81AC;
+    color: #8d81ac;
   }
 }
 
@@ -474,15 +474,15 @@ body {
   font-size: 26px;
   line-height: 26px;
   padding: 25px 0 25px 40px;
-  color: #FFFFFF;
+  color: #ffffff;
   text-transform: capitalize;
   list-style: none;
-  border-bottom: 3px solid #3B3B3B;
+  border-bottom: 3px solid #3b3b3b;
 }
 @media (max-width: 481px) {
   .list__item:hover {
-    color: #8D81AC;
-    border-left: 10px solid #8D81AC;
+    color: #8d81ac;
+    border-left: 10px solid #8d81ac;
     padding-left: 30px;
   }
 }
@@ -491,7 +491,7 @@ body {
     font-family: "Montserrat", sans-serif;
     font-style: normal;
     font-weight: bold;
-    color: #8D81AC;
+    color: #8d81ac;
     border: none;
     font-size: 14px;
     line-height: 16px;
@@ -584,7 +584,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #8D81AC;
+  color: #8d81ac;
   font-size: 18px;
   line-height: 24px;
   text-transform: capitalize;
@@ -613,7 +613,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: normal;
-  color: #848E97;
+  color: #848e97;
   font-size: 14px;
   line-height: 14px;
   text-transform: uppercase;
@@ -637,6 +637,7 @@ body {
   align-items: center;
   flex-direction: column;
   transform: translateY(70%);
+  padding: auto;
 }
 
 .download__btn {
@@ -659,7 +660,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
-  color: #848E97;
+  color: #848e97;
 }
 @media (min-width: 481px) {
   .download__offer {
